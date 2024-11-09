@@ -7,7 +7,7 @@ function Content() {
 }
 
 function Footer() {
-  return (<h1>Created by Me, of course.</h1>);
+  return (<h1>Created by Robin.</h1>);
 }
 
 function App() {
