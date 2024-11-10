@@ -1,13 +1,15 @@
 function Header() {
-  return (<h1>Simple React Application</h1>);
+  return (
+  <div class="Header"><h1>Simple React Application</h1></div>
+  );
 }
 
 function Content() {
-  return (<p>This is my first React Application, wish me luck!</p>);
+  return (<div class="Content"><p>This is my first React Application, wish me luck!</p></div>);
 }
 
 function Footer() {
-  return (<h1>Created by Robin.</h1>);
+  return (<div class="Footer"><h1>Created by Robin.</h1></div>);
 }
 
 function App() {
